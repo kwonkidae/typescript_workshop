@@ -1,4 +1,7 @@
+"use strict";
 function squares(array) {
-    const result = array.map(x => x * x);
+    // let variable: number
+    // variable = "string";
+    var result = array.map(function (x) { return x * x; });
     return result;
 }

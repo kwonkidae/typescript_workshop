@@ -1,3 +1,4 @@
+"use strict";
 function snippet(text, length) {
     if (text.length < length) {
         return text;

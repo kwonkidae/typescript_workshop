@@ -1,3 +1,4 @@
+"use strict";
 var __assign = (this && this.__assign) || function () {
     __assign = Object.assign || function(t) {
         for (var s, i = 1, n = arguments.length; i < n; i++) {
@@ -14,7 +15,7 @@ function updateTodo(todo, fieldsToUpdate) {
 }
 var todo1 = {
     title: 'organize dest',
-    description: 'clear clutter'
+    description: 'clear clutter',
 };
 var todo2 = updateTodo(todo1, {
     description: "throw out trash"
