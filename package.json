@@ -1,0 +1,26 @@
+{
+  "name": "typescript_workshop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kwonkidae/typescript_workshop.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kwonkidae/typescript_workshop/issues"
+  },
+  "homepage": "https://github.com/kwonkidae/typescript_workshop#readme",
+  "dependencies": {
+    "-": "^0.0.1",
+    "D": "^1.0.0",
+    "metadata": "^0.1.0",
+    "reflect": "^0.1.3",
+    "reflect-metadata": "^0.1.13"
+  }
+}

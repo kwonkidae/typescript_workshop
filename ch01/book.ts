@@ -19,3 +19,21 @@ function setPages(book: Book, pages: number) {
 function readBook(book: Book) {
   book.isRead = true;
 }
+
+const warAndPeace = {
+  author: "Leo Tolstory",
+  title: "War and Peace",
+  isRead: false
+}
+
+const mobyDick: Book = {
+  author: "Herman Melville",
+  title: "Moby Dick"
+}
+
+setPages(warAndPeace, 1225);
+showBook(warAndPeace);
+
+showBook(mobyDick);
+readBook(mobyDick);
+showBook(mobyDick);
